@@ -1,0 +1,7 @@
+{
+  "name": "presentation-video-games-in-html5",
+  "version": "0.0.0",
+  "dependencies": {
+    "prism": "gh-pages"
+  }
+}
