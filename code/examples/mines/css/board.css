@@ -1,0 +1,55 @@
+div.spot {
+  display: inline-block;
+  border: 1px solid black;
+  width: 15px;
+  height: 15px;
+  vertical-align: top;
+  margin: -1px -1px 0 0;
+}
+
+div#board {
+  margin: 10px;
+  font-size: 0px;
+  /* width: 100%; */
+  /* overflow: hidden; */
+  padding: 5px;
+  border: 2px solid;
+  display: inline-block;
+}
+
+div.flag {
+  background-image: url("../img/flag.png");
+  background-size: 100%;
+}
+
+div.bomb {
+  background-image: url("../img/mine.png");
+  background-size: 100%;
+}
+
+div.pressed {
+  background-color: #DEDEDE;
+  font-size: 12px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+
+div#container {
+    overflow: scroll;
+    /* height: 100%; */
+    position: absolute;
+    top: 125px;
+    bottom: 0px;
+    left: 10px;
+    right: 10px;
+}
+
+.row {
+    white-space: nowrap;
+}
+
+body {
+    height: 100%;
+    padding: 10px
+}

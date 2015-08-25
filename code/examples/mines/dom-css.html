@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/css/board.css">
+  </head>
+  <body>
+    <h1>Mines</h1>
+    <div>
+      <span>size</span>
+      <input id="width" class="input-number" type="number" min="10" name="board-width" value="10"/>
+      <span>x</span>
+      <input id="height" class="input-number" type="number" min="10" name="board-height" value="10"/>
+      <span>mines</span>
+      <input id="mines" class="input-number" type="number" min="10" name="amount-of-mines" value="10"/>
+      <button type="button" id="initgame">init</button>
+    </div>
+    <div id="container">
+      <div id="board"></div>
+    </div>
+
+    <script type="text/javascript" src="./js/utils.js"></script>
+    <script type="text/javascript" src="./js/game.js"></script>
+    <script type="text/javascript" src="./js/ui-html.js"></script>
+    </script>
+  </body>
+</html>

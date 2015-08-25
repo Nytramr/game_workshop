@@ -1,5 +1,6 @@
 // Require Node modules in the browser thanks to Browserify: http://browserify.org
 var bespoke = require('bespoke'),
+  simpleSlide = require('bespoke-theme-simple-slide'),
   cube = require('bespoke-theme-cube'),
   keys = require('bespoke-keys'),
   touch = require('bespoke-touch'),
@@ -11,7 +12,8 @@ var bespoke = require('bespoke'),
 
 // Bespoke.js
 bespoke.from('article', [
-  cube(),
+  //cube(),
+  simpleSlide(),
   keys(),
   touch(),
   bullets('li, .bullet'),
@@ -25,4 +27,3 @@ bespoke.from('article', [
 // This is actually loaded from "bower_components" thanks to
 // debowerify: https://github.com/eugeneware/debowerify
 require('prism');
-

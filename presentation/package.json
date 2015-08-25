@@ -1,7 +1,9 @@
 {
   "name": "presentation-video-games-in-html5",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "bespoke-theme-simple-slide": "^0.1.0"
+  },
   "devDependencies": {
     "bespoke": "^1.0.0",
     "bespoke-backdrop": "^1.0.0",
